@@ -17,5 +17,67 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(
+  item_name: "plushie",
+  value: rand(1..10),
+  dev_id: 1, 
+  company_id: 1 
+)
+
+Freebie.create(
+  item_name: "sword",
+  value: rand(1..10),
+  dev_id: 2,  
+  company_id: 2
+)
+
+Freebie.create(
+  item_name: "monkey",
+  value: rand(1..10),
+  dev_id: 3,  
+  company_id: 3, 
+)
+
+Freebie.create(
+  item_name: "ribbon",
+  value: rand(1..10),
+  dev_id: 4, 
+  company_id: 4 
+)
+
+Freebie.create(
+  item_name: "lemons",
+  value: rand(1..10),
+  dev_id: 1, 
+  company_id: 2
+)
+
+Freebie.create(
+  item_name: "donkey",
+  value: rand(1..10),
+  dev_id: 2, 
+  company_id: 1
+)
+
+Freebie.create(
+  item_name: "keyboard",
+  value: rand(1..10),
+  dev_id: 3, 
+  company_id: 4
+)
+
+Freebie.create(
+  item_name: "mouse",
+  value: rand(1..10),
+  dev_id: 4, 
+  company_id: 2
+)
+
+Freebie.create(
+  item_name: "funny book",
+  value: rand(1..10),
+  dev_id: 3, 
+  company_id: 2
+)
 
 puts "Seeding done!"
